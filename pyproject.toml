@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nonebot_plugin_BFVsearch"
+version = "0.1.1"
+description = "基于 Nonebot2 的战地 5 QQ 群管理插件。"
+readme = "README.md"  
+authors = [{name = "Swallow513", email = "3214115907@qq.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "nonebot2>=2.0.0",
+    "aiohttp",
+    "aiocache",
+    "nonebot_plugin_apscheduler",
+    "nonebot_plugin_htmlrender",
+]
