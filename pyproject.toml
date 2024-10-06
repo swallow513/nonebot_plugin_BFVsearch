@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nonebot_plugin_bfvsearch"
+version = "1.0.1"
+description = "基于 Nonebot2 的战地 5 QQ 群战绩查询插件。"
+license = "MIT"
+authors = ["Swallow513"]
+readme = "README.md"
+homepage = "https://github.com/swallow513/nonebot_plugin_BFVsearch"
+keywords = ["nonebot", "nonebot2", "BF5", "onebot"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot-plugin-htmlrender = "^0.3.0.0"
+nonebot2 = "^2.0.0rc2"
+nonebot-adapter-onebot = "^2.2.0"
+requests = "^2.28.1"
