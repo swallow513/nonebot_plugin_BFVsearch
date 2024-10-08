@@ -1,8 +1,17 @@
-# nonebot_plugin_BFVsearch
+<div align="center">
+  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
+  <br>
+  <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
+</div>
 
-一个基于nonebot2平台的战地5Q群查询机器人，提供战绩查询功能，提供基于[htmlrender插件](https://github.com/kexue-z/nonebot-plugin-htmlrender)渲染的美观输出。
+<div align="center">
 
-## 安装
+# nonebot_plugin_bfvsearch
+</div>
+基于Nonebot2的《战地5》QQ群战绩查询插件，提供基于[htmlrender插件](https://github.com/kexue-z/nonebot-plugin-htmlrender)渲染的美观输出。。
+
+
+## 📦 安装
 * 使用pip 
 ```
 pip install nonebot-plugin-bfvsearch
@@ -11,3 +20,19 @@ pip install nonebot-plugin-bfvsearch
 ```
 plugins = ["nonebot-plugin-bfvsearch"]
 ```
+
+
+* 使用 nb_cli（推荐）
+```
+nb plugin install nonebot-plugin-bfvsearch
+```
+
+
+## 🛠 使用说明
+1. **配置 htmlrender 插件：** 请确保 htmlrender 插件已正确安装和配置。
+   - 为了更美观的显示效果，建议将图片默认宽度设置为 `730`。
+
+2. **指令前缀：** 如果没有修改 Nonebot 的配置，请在指令前加上 `\` 以确保命令被正确识别。
+
+
+## 🥰欢迎加入SBEA服务器一起玩！
