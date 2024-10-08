@@ -34,5 +34,10 @@ nb plugin install nonebot-plugin-bfvsearch
 
 2. **指令前缀：** 如果没有修改 Nonebot 的配置，请在指令前加上 `\` 以确保命令被正确识别。
 
+3. **指令：**
+   - cx=id     用于查询该eaid的战地风云五数据
+   - pb=id     用于查询该id下在离线版服务器的屏蔽记录
+   - fwq=name  用于搜索包含name的服务器
+
 
 ## 🥰欢迎加入SBEA服务器一起玩！
