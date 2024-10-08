@@ -362,6 +362,8 @@ async def server_search_handel(args: Message = CommandArg()):
             html += "</div>"  # 结束外层 div
 
             pic = await html_to_pic(html)  # 将 HTML 转换为图片
+
+            
             await server_search.finish(MessageSegment.image(pic))
         else:
             await server_search.finish("没有找到服务器哦~")
