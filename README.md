@@ -8,7 +8,7 @@
 
 # nonebot_plugin_bfvsearch
 </div>
-基于Nonebot2的《战地5》QQ群战绩查询插件，提供基于[htmlrender插件](https://github.com/kexue-z/nonebot-plugin-htmlrender)渲染的美观输出。。
+基于Nonebot2的《战地5》QQ群战绩查询插件，提供基于[htmlrender插件](https://github.com/kexue-z/nonebot-plugin-htmlrender)渲染的美观输出。
 
 
 ## 📦 安装
