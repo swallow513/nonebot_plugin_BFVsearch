@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nonebot_plugin_bfvsearch"
-version = "0.1.5"
-description = "基于 Nonebot2 的战地 5 QQ 群管理插件。"
+version = "0.1.6"
+description = "基于 Nonebot2 的战地 5 QQ 群查询插件。"
 readme = "README.md"
 authors = [{name = "Swallow513", email = "3214115907@qq.com"}]
 classifiers = [
@@ -19,5 +19,6 @@ dependencies = [
     "aiohttp>=3.10.6", 
     "aiocache>=0.12.3",  
     "nonebot-plugin-htmlrender>=0.3.0",
-    "nonebot-adapter-onebot>=2.2.0"
+    "nonebot-adapter-onebot>=2.2.0",
+    "pytz>=2024.2"
 ]
