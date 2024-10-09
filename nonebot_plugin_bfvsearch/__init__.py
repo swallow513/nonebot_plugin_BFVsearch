@@ -258,7 +258,7 @@ async def handle_player_search(bot: Bot, event: GroupMessageEvent, args: Message
             markdown += "## ROBOT查询结果：查询失败"
 
         # 将 Markdown 转换为图片并发送
-        pic = await md_to_pic(markdown)
+        pic = await md_to_pic(md=markdown, width=730)
         await player_search.finish(MessageSegment.image(pic))
 
 
