@@ -30,7 +30,6 @@ nb plugin install nonebot-plugin-bfvsearch
 
 ## 🛠 使用说明
 1. **配置 htmlrender 插件：** 请确保 htmlrender 插件已正确安装和配置。
-   - 为了更美观的显示效果，建议将图片默认宽度设置为 `730`。
 
 2. **指令前缀：** 如果没有修改 Nonebot 的配置，请在指令前加上 `\` 以确保命令被正确识别。
 
