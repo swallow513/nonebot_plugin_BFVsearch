@@ -14,17 +14,17 @@
 ## 📦 安装
 * 使用pip 
 ```
-pip install nonebot-plugin-bfvsearch
+pip install nonebot_plugin_bfvsearch
 ```
 并在bot根目录的`pyproject.toml`文件中加入  
 ```
-plugins = ["nonebot-plugin-bfvsearch"]
+plugins = ["nonebot_plugin_bfvsearch"]
 ```
 
 
 * 使用 nb_cli（推荐）
 ```
-nb plugin install nonebot-plugin-bfvsearch
+nb plugin install nonebot_plugin_bfvsearch
 ```
 
 
